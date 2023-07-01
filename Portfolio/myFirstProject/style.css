@@ -1,0 +1,449 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #0b2136;
+    /* 0b2233 */
+    /* #0b2136 */
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 50px;
+}
+
+.navbar{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    position: sticky;
+    top: 0px;
+    list-style-type: none;
+    background-color: #0b2136;
+    width: 100%;
+    z-index: 1;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px 20px;
+    font-size: 18px;
+}
+
+li a:hover{
+    color: #00abf0;
+}
+
+
+.Symbol{
+    width: 72px;
+    height: auto;
+    margin-left: 1100px;
+    position: absolute;
+    z-index: 2;
+    transform: translate(320px, -32px);
+    border-radius: 40%;
+    /* border: 5px solid white; */
+    box-shadow: 0 0 10px #00abf0;
+    filter: drop-shadow(20px 20px 52px rgb(91, 179, 213));
+}
+
+.mainpage{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.Profilephoto{
+    margin-left: 120px;
+    margin-top: 95px;
+    width: 390px;
+    height: 460px;
+    border-radius: 48%;
+    filter: drop-shadow(12px 12px 50px rgb(80, 164, 198));
+}
+
+#intro{
+    margin-left: 165px;
+    margin-top: 110px;
+    align-self: center;
+}
+
+#intro h1{
+    font-size: 58px;
+    font-weight: 900;
+    font-family: Sans-serif;
+    font-weight: bolder;
+    color: white;
+}
+
+#intro h3{
+    margin-top: 8px;
+    font-size: 40px;
+    color: #00abf0;
+}
+
+#intro p{
+    font-size: 1.15rem;
+    font-weight: 280px;
+    /* font-size: 16px; */
+    margin-top: 40px;
+    color: white;
+    line-height: 26px;
+}
+
+
+.social-icons{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow: clip;
+    list-style: none;
+    margin-left: 0;
+    margin-top: 40px;
+    align-items: center;
+}
+
+.Logo{
+    width: 80px;
+    height: 70px;
+    align-items: center;
+    margin: 4px;
+}
+
+li a img{
+    width: 70px;
+    height: 60px;
+    background-color: transparent;
+}
+
+
+.About{
+    margin-top: 90px;
+    padding-top: 140px;
+    height: 712px;
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid white; */
+    box-sizing: border-box;
+}
+
+#professionalphoto{
+    width: 222px;
+    height: 297px;
+    margin-top: 58px;
+    margin-left: 260px;
+}
+
+.aboutme{
+    margin-left: 95px;
+    /* border: 2px solid white; */
+}
+
+.aboutme h3{
+    color: white;
+    font-size: 70px;
+    margin-top: 12px;
+}
+
+.aboutme p{
+    color: white;
+    margin-top: 40px;
+    font-size: 1.28rem;
+    font-weight: 280px;
+    line-height: 25px;
+}
+
+.relative{
+    position: relative;
+}
+
+.imagebox{
+    width: 262px;
+    height: 337px;
+    position:absolute;
+    border: 4px solid white;
+    margin-top: 38px;
+    margin-left: 240px;
+    background-color: transparent;
+    -webkit-box-shadow: 0 0 18px #fff;
+    box-shadow: 0 0 18px #fff;
+}
+
+
+.MainSkills{
+    color: white;
+    margin-top: 260px;
+    margin-left: 550px;
+    /* border: 2px solid white; */
+    width: 435px;
+}
+.MainSkills h1{
+    font-size: 70px;
+    margin-left: 20px;
+}
+.MainSkills h3{
+    font-size: 25.5px;
+    margin-left: 65px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.skillsPart1{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    /* border: 5px solid white; */
+}
+
+.article1{
+    width: 345px;
+    height: 220px;
+    /* border: 5px solid white; */
+}
+
+.article1 h3{
+    color: white;
+    padding-top: 12px;
+}
+
+.article1 p{
+    color: white;
+    padding-top: 15px;
+}
+
+.logobox{
+    width: 90px;
+    height: 90px;
+    text-align: center;
+    /* border: 2px solid white; */
+    border-radius: 50%;
+    margin-left: 120px;
+    margin-top: 10px;
+    background-image: linear-gradient(54deg,grey 50%,white 50%);
+    background-image: linear-gradient(270deg,white 50%,rgb(202, 200, 200) 50%);
+}
+
+.logoimg{
+    margin-top: 10px;
+}
+
+.logoimg:hover{
+    cursor: pointer;
+    width: 120px;
+}
+
+.logobox:hover{
+    cursor: pointer;
+    width: 96px;
+    height: 96px;
+    -webkit-box-shadow: 0 0 40px #00abf0;
+    box-shadow: 0 0 25px #00abf0;
+    /* filter: drop-shadow(10px 10px 40px rgb(80, 164, 198)); */
+    /* content: '';
+    position: absolute;
+    width: 35px;
+    height: 4px;
+    border-radius: 2px 0px 0px 2px;
+    background-color: #00abf0;
+    border-color: #00abf0; */
+}
+
+
+
+.MainInterest{
+    /* border: 2px solid white; */
+    height: 800px;
+    margin-top: 80px;
+    vertical-align: center;
+}
+
+
+.interest{
+    color: white;
+    /* text-align: center; */
+    /* position: absolute; */
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+}
+
+
+.interest h1{
+    font-size: 85px;
+    padding-top: 150px;
+    padding-left: 118px;
+}
+
+
+.interest p{
+    font-size: 22px;
+    line-height: 28px;
+    padding-top: 90px;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+
+.Contact{
+    background-color: black;
+    /* border: 5px solid white; */
+    margin-top: 0px;
+    height: 210px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.ContactLogo{
+    display: flex;
+    flex-direction: row;
+    overflow: clip;
+    list-style: none;
+    margin-top: 10px;
+    align-items: center;
+    margin-left: 120px;
+}
+
+.ContactLogo img{
+    margin-top: 90px;
+    list-style-type: none;
+}
+
+.contactme{
+    color: white;
+    font-size: 40px;
+    margin-left: 120px;
+    position: absolute;
+    transform: translate(180px,26px);
+}
+
+.copyright{
+    color: white;
+    font-size: 18px;
+    line-height: 32px;
+    font-stretch: ultra-expanded ;
+    margin-top: 15px;
+    margin-left: 635px;
+    position: absolute;
+    transform: translate(225px,80px);
+}
+
+
+.projectheading h1{
+    color: white;
+    font-size: 85px;
+    margin-top: 50px;
+    padding-left: 580px;
+    /* border: 2px solid white; */
+}
+
+.firstproject{
+    display: flex;
+    flex-direction: row;
+}
+
+.firstproject img{
+    max-width: 220px;
+    max-height: auto;
+    height: auto;
+    margin-top: 125px;
+    margin-left: 200px;
+    border-image: 5px solid black;
+    position: relative;
+}
+
+.firstprojectinfo h3{
+    color: white;
+    font-size: 50px;
+    margin-left: 120px;
+    margin-top: 155px;
+    /* border: 2px solid white; */
+}
+
+.firstprojectinfo p{
+    color: white;
+    font-size: 20px;
+    line-height: auto;
+    margin-left: 120px;
+    margin-top: 32px;
+    /* border: 2px solid white; */
+}
+
+.skillbox{
+    width: 1320px;
+    height: 340px;
+    position:absolute;
+    margin-top: 105px;
+    margin-left: 120px;
+    /* border: 2px solid white; */
+    background-color: transparent;
+    -webkit-box-shadow: 0 0 10px #020f1c;
+    box-shadow: 0 0 10px #020f1c;
+    -webkit-box-shadow: inset 0 0 10px white;
+    box-shadow: inset 0 0 10px white;
+    border-radius: 20px 20px;
+    padding: 40px 40px;
+}
+
+#githubbtn{
+    margin-top: 18px;
+    margin-left: 140px;
+    height: 36px;
+    width: 98px;
+    font-size: 20px;
+    /* background-color: white; */
+    position: relative;
+    padding-top: 3px;
+    border-radius: 15px 15px;
+}
+
+#projectlogo{
+    width: 70px;
+    height: auto;
+    margin-right: 800px;
+    position: absolute;
+    transform: translate(-250px, -150px);
+}
+
+#githubbtn:hover{
+    transition: 1s;
+    box-shadow: inset -8rem 0 0 0 #00abf0, inset 8rem 0 0 0 #00abf0;
+    cursor: pointer;
+    color: white;
+}
+
+#projectlogo:hover{
+    content: url(https://pngset.com/images/github-icon-white-github-icon-black-background-symbol-logo-trademark-steering-wheel-transparent-png-842663.png);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
